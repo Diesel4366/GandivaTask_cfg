@@ -39,7 +39,6 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
-  <subsystems>Subsystem.Расш1_Подсистема1</subsystems>
   <styleItems>StyleItem.ПоясняющийТекст</styleItems>
   <commonPictures>CommonPicture.ПиктограммыЭлементов</commonPictures>
   <commonPictures>CommonPicture.Отчеты</commonPictures>
