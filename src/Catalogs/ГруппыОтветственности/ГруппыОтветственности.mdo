@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9761bc3-7454-4b03-bcd8-af9bd9f097fa">
+  <producedTypes>
+    <objectType typeId="fc078304-aaf5-47c2-adf6-3d45f2a6e33c" valueTypeId="33b23b7f-a056-419a-96f0-51917e51ffb6"/>
+    <refType typeId="ff192c9b-543a-4ebe-b220-a0dad63ef9ca" valueTypeId="b0a3fa0d-2091-4208-b86c-2581890f7154"/>
+    <selectionType typeId="9dcd06d4-11cd-4c23-8837-87fa56f4ec01" valueTypeId="29920c7e-edfa-4570-a0cc-2b10eeaa5b74"/>
+    <listType typeId="e28a8ea8-9cb1-4849-9a0b-5957d707cc3d" valueTypeId="41be026b-073d-43d9-8d56-15decce898f6"/>
+    <managerType typeId="3062ea0b-1554-4cae-af7b-9d8c3c10ac48" valueTypeId="b071e7ce-b2c5-48f0-90c4-0076e51f2c54"/>
+  </producedTypes>
+  <name>ГруппыОтветственности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы ответственности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ГруппыОтветственности.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ГруппыОтветственности.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

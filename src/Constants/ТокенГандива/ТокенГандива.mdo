@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e088bf2-3c04-445a-9851-af0296fb7116">
+  <producedTypes>
+    <managerType typeId="03934242-10cf-4931-a9f0-1142b6a4f427" valueTypeId="ddce5bcf-c382-4614-bf1b-8166cdc9f9ff"/>
+    <valueManagerType typeId="fcefbb0c-eca3-41ab-a20a-840013154e37" valueTypeId="5f262ec5-9fe6-4130-838f-ba3ef7d8ab7a"/>
+    <valueKeyType typeId="306420cb-113d-4f4c-82c5-7b45b0b4b8db" valueTypeId="a69c1ea5-ad71-42e4-a2a0-2e0ba9b0d977"/>
+  </producedTypes>
+  <name>ТокенГандива</name>
+  <synonym>
+    <key>ru</key>
+    <value>Токен гандива</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

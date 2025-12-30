@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="dee151b9-fb1c-4f2d-a7c7-2d09e75788e5" extendedConfigurationObject="dbc451f0-9f98-43d1-808f-266c2fdba4ee">
+  <producedTypes>
+    <objectType typeId="fe8c7d9a-d630-48ad-957c-bb6a215c6910" valueTypeId="490a5631-0a11-4805-9eb3-389ee7a82d6f"/>
+    <refType typeId="10b514c7-6648-4cd1-b6de-806d1c5b524c" valueTypeId="fec5f6d4-cdac-46dd-ba87-e876a894dde6"/>
+    <selectionType typeId="1b9c51d9-d4fd-4afe-b961-9fa6d3b3ce82" valueTypeId="c40f3309-aea5-4723-9212-ea2f142b44ce"/>
+    <listType typeId="34f74eab-2be6-425d-b044-7acfbca30fb4" valueTypeId="5dcdc456-639b-4b87-85fc-7799a0eaeaba"/>
+    <managerType typeId="a7c79935-9d32-4cff-83e9-9441c64aaf48" valueTypeId="d3f7c612-68e2-428e-9f84-bd00955758e5"/>
+  </producedTypes>
+  <name>узСпринты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

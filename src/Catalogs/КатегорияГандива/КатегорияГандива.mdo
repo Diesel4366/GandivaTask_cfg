@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dbc91c5a-179e-42b2-a314-72b8cc52240a">
+  <producedTypes>
+    <objectType typeId="4d57fee0-6a9a-4c07-88a8-2eb331bd67bf" valueTypeId="84385daa-8bd4-4db0-b61d-12448be611c7"/>
+    <refType typeId="dfe684f5-dd23-48e2-bae8-e3f31ba48ee3" valueTypeId="0d4a75d4-17ed-4cb6-88fe-07b63bb52c18"/>
+    <selectionType typeId="168d9a4f-3fd2-4342-b4c9-cf64f31e9684" valueTypeId="93209411-54db-4f02-9228-d8c65852a332"/>
+    <listType typeId="cff4e86c-0b55-44e5-b292-b1f4e799a1ba" valueTypeId="e1c38f32-de60-4a2f-b4c3-a11b5694deb5"/>
+    <managerType typeId="007e8699-fd25-448e-9921-fd5f36050949" valueTypeId="f0847747-ee2a-4d63-a28d-b5c3bd63f11d"/>
+  </producedTypes>
+  <name>КатегорияГандива</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категория гандива</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КатегорияГандива.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КатегорияГандива.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.ОтделГандива</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

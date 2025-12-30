@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4fbd4100-4b87-43a2-9ce2-fdd267841206">
+  <producedTypes>
+    <selectionType typeId="bf96d4ba-6673-4eae-b6aa-7673fe3cc7c8" valueTypeId="dd7ebb05-de7f-4df4-b744-4f0e2dcd1196"/>
+    <listType typeId="52d5ebb1-2c00-416d-a70e-1f28ea2ddc6a" valueTypeId="74140ed5-fe8a-4dc3-9e23-f1bcf2ccf20c"/>
+    <managerType typeId="ef63b95d-be23-4637-878b-d7f603144cbf" valueTypeId="8e2e5a7e-8b0b-4a5d-85b2-2dd5e3401c3f"/>
+    <recordSetType typeId="e6290267-b006-4b31-a22d-4c359814efbb" valueTypeId="757f4dc2-2020-49a5-9f74-5caf0e6630b8"/>
+    <recordKeyType typeId="f2413de1-e77c-407f-8a4d-c856f4cb3ac8" valueTypeId="e146e80e-c483-4eef-9cd8-7cae661f5d85"/>
+    <recordType typeId="b8f823bb-99b2-405c-ae1e-9605a83cabff" valueTypeId="0bd12f7a-b4f5-478a-b06a-0b84c1584287"/>
+    <recordManagerType typeId="77548a86-662f-4216-8fb1-02584355fb1d" valueTypeId="9bec75ea-ff90-4492-9145-d013303dae45"/>
+  </producedTypes>
+  <name>ТокеныГандива</name>
+  <synonym>
+    <key>ru</key>
+    <value>Токены гандива</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e1c94a66-f309-44a4-87d4-5a40795f7757">
+    <name>Токен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токен</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <dimensions uuid="6a04639a-dcc4-4763-aed4-64b70a07adfd">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

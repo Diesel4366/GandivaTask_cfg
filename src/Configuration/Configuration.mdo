@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2cd07d2c-474d-4f2d-9a19-409a2552e30e">
+  <name>СтупинГандива</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ступин гандива</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="0c39e59b-d91e-460a-82de-a357f22a34ac"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="31a499e0-e08f-4b0e-b8a5-cfbc57f0bcb9"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="608cc20a-ce91-433c-af57-13721009ce3e"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="935267b9-c7d2-490c-9179-231879e40096"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="eccfc9e1-0ea4-4809-beea-cdab84062225"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="a6672208-c230-4712-8031-e4afa8d10f3d"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="201a85a0-e7c9-449e-ad06-e3467b7f759e"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>Расш1_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.Расш1_ОсновнаяРоль</defaultRoles>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <languages uuid="cbf9f2f9-0e5b-489d-9b19-b068dcee845c" extendedConfigurationObject="8a49062a-8b62-4668-a8a6-cf00aea241d4">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Расш1_Подсистема1</subsystems>
+  <styleItems>StyleItem.ПоясняющийТекст</styleItems>
+  <commonPictures>CommonPicture.ПиктограммыЭлементов</commonPictures>
+  <commonPictures>CommonPicture.Отчеты</commonPictures>
+  <roles>Role.Расш1_ОсновнаяРоль</roles>
+  <commonModules>CommonModule.РегламентГандива</commonModules>
+  <scheduledJobs>ScheduledJob.ОбновитьЗаявкиГандива</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ОбновитьТокеныГандивыВсехПользователей</scheduledJobs>
+  <definedTypes>DefinedType.Подразделение</definedTypes>
+  <definedTypes>DefinedType.ФизическоеЛицо</definedTypes>
+  <constants>Constant.ТокенГандива</constants>
+  <constants>Constant.ДатаПоследнейЗагрузки</constants>
+  <constants>Constant.ДатаПоследнейЗагрузкиДоп</constants>
+  <catalogs>Catalog.ОтделГандива</catalogs>
+  <catalogs>Catalog.КатегорияГандива</catalogs>
+  <catalogs>Catalog.ТипГандива</catalogs>
+  <catalogs>Catalog.ВидГандива</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.узЗадачи</catalogs>
+  <catalogs>Catalog.узСпринты</catalogs>
+  <catalogs>Catalog.узПроекты</catalogs>
+  <catalogs>Catalog.узКонфигурации</catalogs>
+  <catalogs>Catalog.узМеткиЗадач</catalogs>
+  <catalogs>Catalog.узСтатусыЗадачи</catalogs>
+  <catalogs>Catalog.узВариантыВажностиЗадачи</catalogs>
+  <catalogs>Catalog.узКонтрагенты</catalogs>
+  <catalogs>Catalog.узГруппыДоступаЗадач</catalogs>
+  <catalogs>Catalog.узВидыСтатусов</catalogs>
+  <catalogs>Catalog.ГруппыОтветственности</catalogs>
+  <documents>Document.ЗаявкаГандива</documents>
+  <enums>Enum.СтатусыЗадачГандива</enums>
+  <enums>Enum.узОформлениеТекста</enums>
+  <enums>Enum.узВидыСобытий</enums>
+  <dataProcessors>DataProcessor.Расш1_Обработка1</dataProcessors>
+  <informationRegisters>InformationRegister.КоментарииЗаявокГандива</informationRegisters>
+  <informationRegisters>InformationRegister.ТокеныГандива</informationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.узДопРеквизитыЗадачМножественные</chartsOfCharacteristicTypes>
+</mdclass:Configuration>

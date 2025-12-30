@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56010b57-0cd6-4248-a723-c9e956da55ef">
+  <producedTypes>
+    <objectType typeId="ebf8c929-cf5d-4eb3-96fe-f7381f03f992" valueTypeId="daf31566-2990-4ca7-8700-f3bf7b4e243e"/>
+    <refType typeId="bfc66abb-a757-434f-8e90-f9571bfcd862" valueTypeId="c479d9fa-8f7f-4de8-aece-1800e3b9b677"/>
+    <selectionType typeId="f636e68b-0750-478b-9412-39e8d07a3878" valueTypeId="146363ac-6ebc-46ef-87dd-2fc7d226c4d9"/>
+    <listType typeId="1d0de37a-1f8b-4b44-8499-3d304a7fde2e" valueTypeId="dd85a03f-aa31-43d8-a5d1-871e9d00e110"/>
+    <managerType typeId="2978f9dc-4480-442c-ae6e-d425c74f460c" valueTypeId="d213211f-e04e-430c-bfb5-09353780c02e"/>
+  </producedTypes>
+  <name>ВидГандива</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид гандива</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидГандива.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидГандива.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.ТипГандива</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="971e9c91-5ac9-45ee-ac99-0af0d7183981">
+    <name>Тип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидГандива</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

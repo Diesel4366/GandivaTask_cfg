@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb418a6a-6349-4c4d-8f7e-8a5f5d1f9277">
+  <producedTypes>
+    <selectionType typeId="129bbbf6-1a24-43cb-9dc6-fb1c7e41aba2" valueTypeId="85237c61-ef68-4c87-b939-be54d47b18a3"/>
+    <listType typeId="ab9e82ce-70cc-4133-b82c-623b5693cd67" valueTypeId="bbc84d2b-27bc-4ee1-b6e7-50a2b43226c3"/>
+    <managerType typeId="02f6dfc0-9d92-48fb-9185-8575be0f6d11" valueTypeId="ea53ba67-c2c0-432d-ad5b-3fa065ef67c3"/>
+    <recordSetType typeId="21744ac6-e8ad-4327-bec1-d721639807f3" valueTypeId="bedd2173-c803-4270-8a97-b1391e0238e4"/>
+    <recordKeyType typeId="f1bbabcb-3c4b-4906-bb26-90e7263a84b3" valueTypeId="479efbb1-ce84-493e-aeea-06c627495211"/>
+    <recordType typeId="6f7fbc9c-a9b5-4e4d-aaf0-aa65f6ce83a5" valueTypeId="6f620aec-11bc-4393-b14f-41eddc726194"/>
+    <recordManagerType typeId="19912b83-03a9-4c17-ae98-11ad6bd1bf1c" valueTypeId="27c7d187-c7df-4b06-a5f5-5925786dd8bc"/>
+  </producedTypes>
+  <name>КоментарииЗаявокГандива</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коментарии заявок гандива</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="08a4cf7f-51f0-4eea-8584-4c16340b0d1a">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <dimensions uuid="6e59c86c-55d5-4e97-86e5-1af37805575d">
+    <name>Отправитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b04cae20-1391-4fbb-9eec-033dbb5ce461">
+    <name>Заявка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаявкаГандива</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4a78a488-1b6f-4897-95aa-ed5fa57fdf5a">
+    <name>IdКомментария</name>
+    <synonym>
+      <key>ru</key>
+      <value>Id комментария</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="64535b96-bb53-46d8-9c7e-0562bc2766f1">
+    <name>Получатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получатель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

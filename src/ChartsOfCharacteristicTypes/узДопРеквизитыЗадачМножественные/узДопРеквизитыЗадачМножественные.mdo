@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="42f2ac76-0ed2-4e20-80c8-adbfd205859f" extendedConfigurationObject="96d8e7c7-977f-4906-8452-678a0ae28321">
+  <producedTypes>
+    <objectType typeId="3ba0865b-1b79-476b-bac5-da22c7eacde1" valueTypeId="5461e5df-2d1f-49cb-be73-3d36e8308a32"/>
+    <refType typeId="1cae532c-e6af-476d-b560-9a913044dda9" valueTypeId="6d43bc68-8db0-415a-8617-d0bd285ab1de"/>
+    <selectionType typeId="88baa741-8b6f-4cd7-a293-e4b5b225f987" valueTypeId="1d5713cf-a219-4083-a5e4-8dd59852b356"/>
+    <listType typeId="5c53919a-55f2-48f5-98ed-12bc657867eb" valueTypeId="1479ca46-9e21-43e6-9b64-768aaf949e93"/>
+    <managerType typeId="5b94e1bc-4b4e-4b5b-9b05-a04659c0ab5c" valueTypeId="fec2e06c-09b9-4161-87c8-8cca20133109"/>
+    <containerType typeId="d953f588-7eef-48ba-a0f3-cd55d38ced1e" valueTypeId="0d9875ae-9e8e-495a-b780-d76ea5cfe461"/>
+  </producedTypes>
+  <name>узДопРеквизитыЗадачМножественные</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ChartOfCharacteristicTypesExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>CatalogRef.узМеткиЗадач</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:ChartOfCharacteristicTypes>
