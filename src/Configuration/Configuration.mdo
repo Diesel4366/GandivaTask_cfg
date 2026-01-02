@@ -42,6 +42,9 @@
   <styleItems>StyleItem.ПоясняющийТекст</styleItems>
   <commonPictures>CommonPicture.ПиктограммыЭлементов</commonPictures>
   <commonPictures>CommonPicture.Отчеты</commonPictures>
+  <commonPictures>CommonPicture.Скрепка</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияСкрепка</commonPictures>
+  <commonPictures>CommonPicture.Заметка</commonPictures>
   <roles>Role.Расш1_ОсновнаяРоль</roles>
   <commonModules>CommonModule.РегламентГандива</commonModules>
   <scheduledJobs>ScheduledJob.ОбновитьЗаявкиГандива</scheduledJobs>
