@@ -51,6 +51,7 @@
   <constants>Constant.ТокенГандива</constants>
   <constants>Constant.ДатаПоследнейЗагрузки</constants>
   <constants>Constant.ДатаПоследнейЗагрузкиДоп</constants>
+  <constants>Constant.ТокенТелеграм</constants>
   <catalogs>Catalog.ОтделГандива</catalogs>
   <catalogs>Catalog.КатегорияГандива</catalogs>
   <catalogs>Catalog.ТипГандива</catalogs>

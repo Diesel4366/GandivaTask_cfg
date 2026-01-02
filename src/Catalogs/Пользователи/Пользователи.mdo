@@ -241,6 +241,37 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="794e61c5-7af4-4c78-b0d1-f37dae4266f9">
+    <name>ИДТелеграм</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИДТелеграм</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9487552f-efa5-4447-b82a-01b43aa41950">
+    <name>УведомлениеТелеграм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление телеграм</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="6f81fcc4-6ce1-47e7-8777-9966139fe7fe" extendedConfigurationObject="cb92dc2e-6053-4233-a408-4464514b1257">
     <name>ФормаЭлемента</name>
     <objectBelonging>Adopted</objectBelonging>
